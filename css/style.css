@@ -1,0 +1,108 @@
+/* General page styling */
+body { 
+    background-color: azure;
+    margin: 0;
+}
+
+
+* {
+    font-family: sans-serif;
+}
+
+
+header {
+    background-color: bisque;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.subheader {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;   
+    gap: 20px;                 
+    flex-wrap: wrap;          
+}
+
+.box {
+    background-color: lightgray;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    width: 300px;              
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+
+img {
+    width: 50%;
+    border-radius: 8px;
+    display: block;
+    margin: 10px auto;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+
+.button {
+    background-color: #e8b16a;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 6px;
+}
+
+
+
+#red {
+    background-color: #ffe5e5;
+}
+
+#orange {
+    background-color: #fff0e0;
+}
+
+#yellow {
+    background-color: #fff9db;
+}
+
+#green {
+    background-color: #e6f4ea;
+}
+
+#blue {
+    background-color: #e6f0ff;
+}
+
+#purple {
+    background-color: #f3e6ff;
+}
+
+

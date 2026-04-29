@@ -1,44 +1,109 @@
 <!DOCTYPE html>
-    <head>
-        <title>Flowers in Different Perspectives</title>
-    </head>
-    <body>
-        <h1>A Spectrum of Colors</h1>
-    </body>
-</html>
+<html>
+<head>
+    <title>Flowers of the Rainbow</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
 
 <body>
-    <section>
-    <h1>Rainbow</h1>
-    <p>This is a page about flowers in rainbow colors!</p>
-    <!used h1 tag to create a heading and p tag to create a paragraph about the page>
-    <h3>Red Flowers</h3>
-    <img
-        src="images/rose.jpeg"
-        alt="Red Rose"
-        width="300">
-    <!--used img tag to show an image of a red rose--> 
-    <p>Red flowers symbolize love and passion. 
-        Their vibrant hue makes them a popular choice for expressing deep emotions.</p>
-    <p>There are about more than 60 variations of red flowers. Just a few popularexamples include roses, tulips, salvias, and poppies.</p>
 
-    <h3>Orange Flowers</h3>
-    <img
-        src="images/marigold.jpeg"
-        alt="Orange Marigold"
-        width="300">
-    <p>Orange flowers symbolize enthusiasm and energy. They are often associated with warmth and vitality.</p>
-    <p>There are more than 50 variations of orange flowers.Some popular orange flowers include marigolds, california poppies, and daylilies.</p>
+<header id="main_page_header">
+    <h1>Flowers of the Rainbow</h1>
+    <p>This is a page about flowers organized by color and their meanings.</p>
+</header>
 
-    <h3>Yellow Flowers</h3>
-    <img
-        src="images/sunflower.jpeg"
-        alt="Yellow Sunflower"
-        width="300">
-    <p>Yellow flowers symbolize happiness and optimism. 
-        They are often associated with sunshine and cheerfulness.</p>
-    <p>There are more than 40 variations of yellow flowers. Some popular yellow flowers include sunflowers, daffodils, and marigolds.</p>
+<main id="page1_content" class="flex-container">
 
-    <a 
-    href="page2.html">Read more on Page 2</a>
+    <!-- RED -->
+    <article id="red_flowers" class="box">
+        <h3>Red Flowers</h3>
+
+        <p>Red flowers symbolize love and passion.</p>
+
+        <img src="images/rose.jpeg" alt="Red Rose" width="25%"/>
+
+        <section>
+            <p class="subheader">Popular Red Flowers</p>
+            <ul>
+                <li>Roses</li>
+                <li>Tulips</li>
+                <li>Poppies</li>
+            </ul>
+        </section>
+
+        <section>
+            <p class="subheader">What They Represent</p>
+            <ol>
+                <li>Love</li>
+                <li>Passion</li>
+                <li>Energy</li>
+            </ol>
+        </section>
+    </article>
+
+    <!-- ORANGE -->
+    <article id="orange_flowers" class="box">
+        <h3>Orange Flowers</h3>
+
+        <p>Orange flowers symbolize energy and enthusiasm.</p>
+
+        <img src="images/marigold.jpeg" alt="Orange Marigold" width="25%"/>
+
+        <section>
+            <p class="subheader">Popular Orange Flowers</p>
+            <ul>
+                <li>Marigolds</li>
+                <li>Daylilies</li>
+                <li>California Poppies</li>
+            </ul>
+        </section>
+
+        <section>
+            <p class="subheader">What They Represent</p>
+            <ol>
+                <li>Warmth</li>
+                <li>Creativity</li>
+                <li>Excitement</li>
+            </ol>
+        </section>
+    </article>
+
+    <!-- YELLOW -->
+    <article id="yellow_flowers" class="box">
+        <h3>Yellow Flowers</h3>
+
+        <p>Yellow flowers symbolize happiness and positivity.</p>
+
+        <img src="images/sunflower.jpeg" alt="Yellow Sunflower" width="25%"/>
+
+        <section>
+            <p class="subheader">Popular Yellow Flowers</p>
+            <ul>
+                <li>Sunflowers</li>
+                <li>Daffodils</li>
+                <li>Daisies</li>
+            </ul>
+        </section>
+
+        <section>
+            <p class="subheader">What They Represent</p>
+            <ol>
+                <li>Happiness</li>
+                <li>Friendship</li>
+                <li>Optimism</li>
+            </ol>
+        </section>
+    </article>
+
+    <!-- NAV -->
+    <nav id="footer">
+        <h4>Explore More Colors</h4>
+        <ul>
+            <li><a href="page2.html" class="button">Next: Green, Blue & Purple →</a></li>
+        </ul>
+    </nav>
+
+</main>
+
 </body>
+</html>

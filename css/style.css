@@ -28,21 +28,21 @@ section {
     text-align: center;
 }
 
-.flex-container {
+/*.flex-container {
     display: flex;
     justify-content: center;   
     gap: 20px;                 
     flex-wrap: wrap;          
-}
+}*/
 
-.box {
+/*.box {
     background-color: #f2f2f2;
     padding: 20px;
     margin: 10px;
     border-radius: 8px;
     width: 300px;              
     text-align: center;
-}
+}*/
 
 h2 {
     font-size: 28px;

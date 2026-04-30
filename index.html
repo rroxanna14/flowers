@@ -7,107 +7,120 @@
 </head>
 
 <body>
+    <div class="container mt-4">
 
-<header id="main_page_header">
-    <h1>Flowers of the Rainbow</h1>
-    <p>This is a page about flowers organized by color and their meanings.</p>
-</header>
+        <!-- HEADER -->
+        <header class="text-center mb-4">
+            <h1>Flowers of the Rainbow</h1>
+            <p class="lead">This is a page about flowers organized by color and their meanings.</p>
+        </header>
 
-<main id="page1_content" class="flex-container">
+        <!-- MAIN CONTENT -->
+        <main>
+            <div class="row">
 
-    <!-- RED -->
-    <article id="red_flowers" class="box">
-        <h2>Red Flowers</h2>
+                <!-- RED -->
+                <article class="col-md-4 mb-4 text-center">
+                    <div class="p-3 border rounded">
+                        <h2>Red Flowers</h2>
+                        <p>Red flowers symbolize love and passion.</p>
 
-        <p>Red flowers symbolize love and passion.</p>
+                        <img src="images/rose.jpeg"
+                             alt="Close-up of a red rose with detailed petals"
+                             class="img-fluid"/>
 
-        <img src="images/rose.jpeg" alt="Close-up of a red rose with detailed petals" class="img-fluid"/>
+                        <section>
+                            <h3>Popular Red Flowers</h3>
+                            <ul>
+                                <li>Roses</li>
+                                <li>Tulips</li>
+                                <li>Poppies</li>
+                            </ul>
+                        </section>
 
-        <section>
-            <h3>Popular Red Flowers</h3>
-            <ul>
-                <li>Roses</li>
-                <li>Tulips</li>
-                <li>Poppies</li>
-            </ul>
-        </section>
+                        <section>
+                            <h3>What They Represent</h3>
+                            <ol>
+                                <li>Love</li>
+                                <li>Passion</li>
+                                <li>Energy</li>
+                            </ol>
+                        </section>
+                    </div>
+                </article>
 
-        <section>
-            <h3>What They Represent</h3>
-            <ol>
-                <li>Love</li>
-                <li>Passion</li>
-                <li>Energy</li>
-            </ol>
-        </section>
-    </article>
+                <!-- ORANGE -->
+                <article class="col-md-4 mb-4 text-center">
+                    <div class="p-3 border rounded">
+                        <h2>Orange Flowers</h2>
+                        <p>Orange flowers symbolize energy and enthusiasm.</p>
 
-    <!-- ORANGE -->
-    <article id="orange_flowers" class="box">
-        <h2>Orange Flowers</h2>
+                        <img src="images/marigold.jpeg"
+                             alt="Bright orange marigold flower in full bloom"
+                             class="img-fluid"/>
 
-        <p>Orange flowers symbolize energy and enthusiasm.</p>
+                        <section>
+                            <h3>Popular Orange Flowers</h3>
+                            <ul>
+                                <li>Marigolds</li>
+                                <li>Daylilies</li>
+                                <li>California Poppies</li>
+                            </ul>
+                        </section>
 
-        <img src="images/marigold.jpeg" alt="Bright Orange Marigold flower in full bloom" class="img-fluid"/>
+                        <section>
+                            <h3>What They Represent</h3>
+                            <ol>
+                                <li>Warmth</li>
+                                <li>Creativity</li>
+                                <li>Excitement</li>
+                            </ol>
+                        </section>
+                    </div>
+                </article>
 
-        <section>
-            <h3>Popular Orange Flowers</h3>
-            <ul>
-                <li>Marigolds</li>
-                <li>Daylilies</li>
-                <li>California Poppies</li>
-            </ul>
-        </section>
+                <!-- YELLOW -->
+                <article class="col-md-4 mb-4 text-center">
+                    <div class="p-3 border rounded">
+                        <h2>Yellow Flowers</h2>
+                        <p>Yellow flowers symbolize happiness and positivity.</p>
 
-        <section>
-            <h3>What They Represent</h3>
-            <ol>
-                <li>Warmth</li>
-                <li>Creativity</li>
-                <li>Excitement</li>
-            </ol>
-        </section>
-    </article>
+                        <img src="images/sunflower.jpeg"
+                             alt="Close-up of yellow sunflowers in direct light"
+                             class="img-fluid"/>
 
-    <!-- YELLOW -->
-    <article id="yellow_flowers" class="box">
-        <h2>Yellow Flowers</h2>
+                        <section>
+                            <h3>Popular Yellow Flowers</h3>
+                            <ul>
+                                <li>Sunflowers</li>
+                                <li>Daffodils</li>
+                                <li>Daisies</li>
+                            </ul>
+                        </section>
 
-        <p>Yellow flowers symbolize happiness and positivity.</p>
+                        <section>
+                            <h3>What They Represent</h3>
+                            <ol>
+                                <li>Happiness</li>
+                                <li>Friendship</li>
+                                <li>Optimism</li>
+                            </ol>
+                        </section>
+                    </div>
+                </article>
 
-        <img src="images/sunflower.jpeg" alt="Close-up of yellow sunflowers in direct light" class="img-fluid"/>
+            </div>
+        </main>
 
-        <section>
-            <h3>Popular Yellow Flowers</h3>
-            <ul>
-                <li>Sunflowers</li>
-                <li>Daffodils</li>
-                <li>Daisies</li>
-            </ul>
-        </section>
-
-        <section>
-            <h3>What They Represent</h3>
-            <ol>
-                <li>Happiness</li>
-                <li>Friendship</li>
-                <li>Optimism</li>
-            </ol>
-        </section>
-    </article>
-
-    <!-- NAV -->
-    <nav id="footer">
-        <h4>Explore More Colors</h4>
-        <ul>
-            <li><a href="page2.html" class="btn btn-success">
+        <!-- FOOTER -->
+        <footer class="mt-5">
+            <nav class="d-flex justify-content-center">
+                <a href="page2.html" class="btn btn-success">
                     View green, blue, and purple flowers
                 </a>
-            </li>
-        </ul>
-    </nav>
+            </nav>
+        </footer>
 
-</main>
-
+    </div> 
 </body>
 </html>
